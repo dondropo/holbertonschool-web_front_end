@@ -33,9 +33,14 @@ body {
   font-weight: var(--font-weight-regular);
   min-height: var(--line-height-base);
 }
-a:link {
+a {
   color: var(--text-color);
   text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
   font-family: Italic;
 }
 a:hover {
