@@ -41,7 +41,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  font-family: Italic;
+  font-style: Italic;
 }
 a:hover {
   text-decoration: underline;
