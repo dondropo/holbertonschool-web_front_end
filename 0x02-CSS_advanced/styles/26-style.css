@@ -104,12 +104,7 @@ ul.row {
 .navbar-menu {
   float: right;
 }
-[data-section-theme="dark"] {
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-  background-color: var(--color-black);
-  --button-color: var(--color-white);
-}
+
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
@@ -172,6 +167,12 @@ ul.row {
   display: block;
   padding-top: 10rem;
   color: var(--color-primary);
+}
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
+  --button-color: var(--color-white);
 }
 .section {
   padding: var(--section-padding);
