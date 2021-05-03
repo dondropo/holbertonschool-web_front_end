@@ -2,5 +2,14 @@
 $body_p_txt_color: #3D3D3D;
 $body_h2_background: #6D6D6D;
 
-body, p { color: $body_p_txt_color; background: $body_p_txt_color; }
-h2 { background: $body_h2_background; }
+body {
+  color: $body_p_txt_color;
+  background-color: $body_h2_background;
+  
+p {
+  color: $body_p_txt_color;
+  
+h2 {
+  background-color: $body_h2_background; }
+  }
+}
