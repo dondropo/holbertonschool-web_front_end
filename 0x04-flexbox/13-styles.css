@@ -15,7 +15,7 @@
 /* Variables
    ============================= */
 
-   :root {
+  :root {
     --color-primary: #D73953;
     --color-black:  #090909;
     --color-white: #ffffff;
@@ -596,13 +596,13 @@
     display: block;
   }
 
-  .post-meta-list  [class*="post-meta-"] {
+  .post-meta-list [class^="post-meta-"] {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     border-bottom: 0.2rem solid var(--color-light-grey);
   }
 
-  .post-meta-list [class*='post-meta']:last-child{
+  .post-meta-list :last-child[class^="post-meta-"] {
     border: none;
     margin-bottom: 3rem;
   }
@@ -615,14 +615,14 @@
     list-style: none;
   }
 
-  .tag-list [class*="li"] {
+  .tag-list .li {
     display: inline;
   }
 
-  .tag-list li::after {
+  .tag-list .li::after {
     content: ", ";
   }
 
-  .tag-list li:last-child::after {
+  .tag-list .li:last-child {
     content: "";
   }
