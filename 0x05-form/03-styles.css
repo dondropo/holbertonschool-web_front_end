@@ -16,7 +16,7 @@
 /* Variables
    ============================= */
 
-  :root {
+   :root {
     --color-primary: #D73953;
     --color-black:  #090909;
     --color-white: #ffffff;
@@ -662,13 +662,13 @@
     /* Basic form
       ============================= */
   
-      form {
-        display: flex;
-        flex-direction: column;
-        padding: 1rem 0;
-        margin: 0;
+    form {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 0;
+      margin: 0;
     }
-    
+  
     fieldset {
       display: flex;
       flex-direction: column;
@@ -676,8 +676,8 @@
       border: none;
       padding: 0 0 2rem;
     }
-
-    .label {
+  
+    label {
       cursor: pointer;
       display: block;
       white-space: nowrap;
